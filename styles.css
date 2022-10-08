@@ -1,0 +1,107 @@
+body{
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+}
+
+.wrapper{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  gap:1.2rem;
+  flex-wrap: wrap;
+}
+.eve{
+  height: 500px;
+  width: 200px;
+  background-color: teal;
+  overflow: hidden;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+.eve img{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position:absolute;
+  left: 200px;
+  border-radius: 5px;
+
+  top:0;
+}
+.eve h1{
+  transform: rotate(-90deg);
+
+}
+.eve .hea{
+  border-radius: 5px;
+
+background-color: teal;
+  height: 500px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+}
+.c1{
+  transition: 0.5s;
+}
+.im{
+  transition: 0.5s;
+}
+.hea{
+  transition: 0.5s;
+}
+.c1:hover {
+  width: 400px;
+}
+.c2:hover {
+  width: 400px;
+}
+.c3:hover {
+  width: 400px;
+}
+
+.c4:hover {
+  width: 400px;
+}.c5:hover {
+  width: 400px;
+}
+.c1:hover .im,.c1:hover .hea{
+  transform: translateX(-200px);
+}
+/* .c1:hover .hea{
+  transform: translateX(-200px);
+} */
+.c2{
+  transition: 0.5s;
+}
+.c2:hover .im,.c2:hover .hea{
+  transform: translateX(-200px);
+}
+.c3{
+  transition: 0.5s;
+}
+.c3:hover .im,.c3:hover .hea{
+  transform: translateX(-200px);
+}
+.c4{
+  transition: 0.5s;
+}
+.c4:hover .im,.c4:hover .hea{
+  transform: translateX(-200px);
+}
+.c5{
+  transition: 0.5s;
+}
+.c5:hover .im,.c5:hover .hea{
+  transform: translateX(-200px);
+}
